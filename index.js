@@ -16,7 +16,7 @@ function playGame(playerChoice) {
         (playerChoice === 'rock' && computerChoice === 'scissors') ||
         (playerChoice === 'paper' && computerChoice === 'rock') ||
         (playerChoice === 'scissors' && computerChoice === 'paper') ?
-        'WIN! 🥳' : 'LOSE! 😿';
+        'WIN! 🥳' : 'LOSE! 😞';
 
     // Display choices and result with flair
     playerDisplay.textContent = `🧙 You: ${playerChoice.toUpperCase()} ${emojiMap[playerChoice]}`;
