@@ -23,15 +23,14 @@ button {
     margin: 20px;
     border: none;
     border-radius: 50%;
-    background-color: hsl(0, 69%, 16%);
+    background-color: hsl(210, 70%, 45%); /* Changed to a blue shade */
     color: white;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: hsla(0, 2%, 12%, 0.6);
-
+    background-color: hsl(210, 70%, 35%); /* Darker blue on hover */
 }
 
 #container {
